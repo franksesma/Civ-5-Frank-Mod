@@ -1,9 +1,9 @@
 CHANGE LOGS:
-    - No longer receives +3 science from great works after adopting Artistic Genius in Aesthetics
-    - Silk Roads in Commerce now gives a +100% production bonus instead of +50% production bonus towards Markets, Banks, and Stock Exchnages
-    - Humanism in Rationalism now gives a +100% production bonus towards science buildings instead of +50% production.
-    - Finishing Honor now grants a free spy. 
-    - Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
+    * No longer receives +3 science from great works after adopting Artistic Genius in Aesthetics
+    * Silk Roads in Commerce now gives a +100% production bonus instead of +50% production bonus towards Markets, Banks, and Stock Exchnages
+    * Humanism in Rationalism now gives a +100% production bonus towards science buildings instead of +50% production.
+    * Finishing Honor now grants a free spy. 
+    * Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
