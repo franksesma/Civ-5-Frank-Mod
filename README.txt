@@ -7,6 +7,7 @@ CHANGE LOGS:
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
+    - Added the SocialPolicyPopup.lua file to the UI folder
 
 CHANGES TO CIV5Units_Mongol.xml:
 
