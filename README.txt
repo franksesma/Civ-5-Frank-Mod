@@ -6,6 +6,8 @@ CHANGE LOGS:
 - Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
 - Anti-Tank rifle now has 40 combat strength instead of 30.
 - Bomb Shelters have been moved from Telecommunications to Nuclear Fission.
+- Crossbow class as a whole has been nerfed 2 combat strength, regular crossbow are down from 13 combat strength to 11 combat strength (Longbowmen have been reduced by 2 from 12 to 10. Saethwyr have been reduced by 2 from 15 to 13). 
+- Canals have been brought back.
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
@@ -113,3 +115,33 @@ CHANGES TO CIV5Units.xml:
     <Strategy>TXT_KEY_UNIT_AT_GUN_STRATEGY</Strategy> 
     <Help>TXT_KEY_UNIT_HELP_ANTI_TANK_RIFLE</Help> 
     <Combat>40</Combat> 
+
+    Nerf Crossbow classes down 2 combat strength:
+    <Type>UNIT_ENGLISH_LONGBOWMAN</Type> 12->10
+    <Type>UNIT_US_LONGBOWMAN</Type> 15->13
+    <Type>UNIT_CROSSBOWMAN</Type> 13->11
+    <Type>UNIT_CHINESE_CHUKONU</Type> 13->11
+
+    Brought back canals
+    <ID>55</ID> 
+    <Type>BUILD_CANAL</Type> 
+    <ShowInPedia>true</ShowInPedia> 
+    <ShowInTechTree>true</ShowInTechTree> 
+    <!--
+    <Row>
+        <UnitType>UNIT_WORKER</UnitType>
+        <BuildType>BUILD_CANAL</BuildType>
+    </Row>
+    <Row>
+        <UnitType>UNIT_ARGENTINA_WORKER</UnitType>
+        <BuildType>BUILD_CANAL</BuildType>
+    </Row>
+    <Row>
+        <UnitType>UNIT_AUSTRALIA_WORKER</UnitType>
+        <BuildType>BUILD_CANAL</BuildType>
+    </Row>
+    <Row>
+        <UnitType>UNIT_FAST_WORKER</UnitType>
+        <BuildType>BUILD_CANAL</BuildType>
+    </Row>
+    -->
