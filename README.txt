@@ -4,6 +4,7 @@ CHANGE LOGS:
     - Humanism in Rationalism now gives a +100% production bonus towards science buildings instead of +50% production.
     - Finishing Honor now grants a free spy. 
     - Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
+    - Anti-Tank rifle now has 40 combat strength instead of 30.
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
