@@ -97,3 +97,12 @@ CHANGES TO CIV5Units.xml:
         <YieldType>YIELD_SCIENCE</YieldType> 
         <Yield>0</Yield> 
     </Row>
+
+    Change Anti Tank Rifle to 40 Combat Strength:
+    <ID>210</ID> 
+    <Type>UNIT_ANTI_TANK_RIFLE</Type> 
+    <Description>Anti-Tank Rifle</Description> 
+    <Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ANTITANKGUN_TEXT</Civilopedia> 
+    <Strategy>TXT_KEY_UNIT_AT_GUN_STRATEGY</Strategy> 
+    <Help>TXT_KEY_UNIT_HELP_ANTI_TANK_RIFLE</Help> 
+    <Combat>40</Combat> 
