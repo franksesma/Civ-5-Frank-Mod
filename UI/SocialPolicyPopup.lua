@@ -376,9 +376,9 @@ function UpdateDisplay()
 				elseif (i == 5 or i == 8) and (player:IsPolicyBranchUnlocked( 5 ) or player:IsPolicyBranchUnlocked( 8 )) then
 					local strPolicyBranchName = "";
 					if i == 5 then
-						strPolicyBranchName = "Aesthetics";
-					else
 						strPolicyBranchName = "Rationalism";
+					else
+						strPolicyBranchName = "Aesthetics";
 					end
 			
 					strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_AESTHETICS_OR_RATIONALISM", strPolicyBranchName);
