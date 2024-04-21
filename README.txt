@@ -8,6 +8,7 @@ CHANGE LOGS:
 - Bomb Shelters have been moved from Telecommunications to Nuclear Fission.
 - Crossbow class as a whole has been nerfed 2 combat strength, regular crossbow are down from 13 combat strength to 11 combat strength (Longbowmen have been reduced by 2 from 12 to 10. Saethwyr have been reduced by 2 from 15 to 13). 
 - Canals have been brought back.
+- Changed Freedom, Order, and Autocracy labels to Democracy, Communism, and Fascism. 
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
@@ -51,6 +52,8 @@ CHANGES TO CIV5Units_Mongol.xml:
     <ID>124</ID> 
         <Type>BUILDING_BOMB_SHELTER</Type> 
         <PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech> 
+
+    Changed Freedom, Order, and Autocracy labels to Democracy, Communism, and Fascism.
 
 CHANGES TO CIV5Units.xml:
 
