@@ -5,6 +5,7 @@ CHANGE LOGS:
     - Finishing Honor now grants a free spy. 
     - Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
     - Anti-Tank rifle now has 40 combat strength instead of 30.
+    - Bomb Shelters have been moved from Telecommunications to Nuclear Fission.
 
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
@@ -43,6 +44,11 @@ CHANGES TO CIV5Units_Mongol.xml:
             [COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]A [ICON_GREAT_ARTIST] Great Artist appears. [COLOR_POSITIVE_TEXT]Amphitheaters[ENDCOLOR], [COLOR_POSITIVE_TEXT]Opera Houses[ENDCOLOR], [COLOR_POSITIVE_TEXT]Museums[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Broadcast Towers[ENDCOLOR] provide +1 [ICON_RESEARCH] Science. Every [COLOR_POSITIVE_TEXT]Festival[ENDCOLOR] yields +2 [ICON_RESEARCH] Science.
         </Text>
     </Replace>
+
+    Change Bomb Shelters to be available at Nuclear Fission instead of Telecommunications:
+    <ID>124</ID> 
+        <Type>BUILDING_BOMB_SHELTER</Type> 
+        <PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech> 
 
 CHANGES TO CIV5Units.xml:
 
