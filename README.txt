@@ -1,8 +1,16 @@
 CHANGE LOGS:
+v1.3
+- Rationalism can now be adopted in medieval era 
+- Mercenary Army in Commerce now allows you to purchase Units at a -50% reduced gold cost.
+- Added Enlightenment Era mod
+- Added Ethnic Units mod
+- Spy from finishing Honor has been removed
+- Cultural Centers in Aesthetics now gives +50% production towards culture buildings instead of 100%.
+
+v1.2
 - Artistic Genius in Aesthetics no longer provides +3 science from great works.
 - Silk Roads in Commerce now gives a +100% production bonus instead of +50% production bonus towards Markets, Banks, and Stock Exchnages
 - Humanism in Rationalism now gives a +100% production bonus towards science buildings instead of +50% production.
-- Finishing Honor now grants a free spy. 
 - Adopting Rationalism or Aesthetics now officially blocks you from adopting the other. 
 - Anti-Tank rifle now has 40 combat strength instead of 30.
 - Bomb Shelters have been moved from Telecommunications to Nuclear Fission.
@@ -14,6 +22,11 @@ FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - Added the SocialPolicyPopup.lua file to the UI folder
 
 CHANGES TO CIV5Units_Mongol.xml:
+    Update Mercenary Army label:
+    <Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"> 
+    <Text>
+        [COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of [COLOR_YELLOW]Landsknechts[ENDCOLOR] at [COLOR_CYAN]Civil Service[ENDCOLOR] and [COLOR_YELLOW]Foreign Legions[ENDCOLOR] at [COLOR_CYAN]Replaceable Parts[ENDCOLOR]. Purchasing units with Gold [ICON_GOLD] costs 50% less than normal.
+    </Text>
 
     Add text label for when Ratonalism or Aesthetics is unlocked near TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION:
     <Replace Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_AESTHETICS_OR_RATIONALISM"> 
@@ -21,8 +34,6 @@ CHANGES TO CIV5Units_Mongol.xml:
             [COLOR_WARNING_TEXT]This branch is now locked because {1_BranchNameString:textkey} has been opened.[ENDCOLOR]
         </Text>
     </Replace>
-
-    Add to <Text> for for TXT_KEY_POLICY_BRANCH_HONOR_HELP: Gain 1 additional [ICON_SPY]
 
     Change Production boost label for Silk Road to say 100%:
     <Replace Tag="TXT_KEY_POLICY_CARAVANS_HELP"> 
@@ -55,8 +66,18 @@ CHANGES TO CIV5Units_Mongol.xml:
     Changed Freedom, Order, and Autocracy labels to Democracy, Communism, and Fascism.
 
 CHANGES TO CIV5Units.xml:
+    Reduce cost to purchase units for Mercenary Army in Commerce
+    <ID>31</ID> 
+        <Type>POLICY_TRADE_UNIONS</Type> 
+        <UnitPurchaseCostModifier>-50</UnitPurchaseCostModifier> 
 
-    Change <ExtraSpies> to 1 for <Type>BUILDING_HONOR_FINISHER</Type> 
+    Allow Rationalism to be adopted in the Medieval era:
+    <ID>8</ID> 
+        <Type>POLICY_BRANCH_RATIONALISM</Type> 
+        <Description>TXT_KEY_POLICY_BRANCH_RATIONALISM</Description> 
+        <Help>TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP</Help> 
+        <Title>TXT_KEY_RATIONALISM_TITLE</Title> 
+        <EraPrereq>ERA_MEDIEVAL</EraPrereq> 
 
     Change POLICY_CARAVANS ProductionModifier to 100 for the following buildings:
     <Row> 
