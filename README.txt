@@ -22,10 +22,16 @@ FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
     - Added the SocialPolicyPopup.lua file to the UI folder
 
 CHANGES TO CIV5Units_Mongol.xml:
+    Update Fine Arts label:
+    <Replace Tag="TXT_KEY_POLICY_FINE_ARTS_HELP"> 
+    <Text>
+        [COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Amphitheaters[ENDCOLOR], [COLOR_POSITIVE_TEXT]Opera Houses[ENDCOLOR], [COLOR_POSITIVE_TEXT]Museums[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Broadcast Towers[ENDCOLOR] increase city [ICON_TOURISM] Tourism output by 20%.
+    </Text>
+
     Update Mercenary Army label:
     <Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"> 
     <Text>
-        [COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of [COLOR_YELLOW]Landsknechts[ENDCOLOR] at [COLOR_CYAN]Civil Service[ENDCOLOR] and [COLOR_YELLOW]Foreign Legions[ENDCOLOR] at [COLOR_CYAN]Replaceable Parts[ENDCOLOR]. Purchasing units with Gold [ICON_GOLD] costs 50% less than normal.
+        [COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of [COLOR_YELLOW]Landsknechts[ENDCOLOR] at [COLOR_CYAN]Civil Service[ENDCOLOR] and [COLOR_YELLOW]Foreign Legions[ENDCOLOR] at [COLOR_CYAN]Replaceable Parts[ENDCOLOR]. Purchasing units with Gold [ICON_GOLD] costs 25% less than normal.
     </Text>
 
     Add text label for when Ratonalism or Aesthetics is unlocked near TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION:
@@ -66,10 +72,13 @@ CHANGES TO CIV5Units_Mongol.xml:
     Changed Freedom, Order, and Autocracy labels to Democracy, Communism, and Fascism.
 
 CHANGES TO CIV5Units.xml:
+    Removed free Scriptoriums, Galleries, and Conservatories from Fine Arts in Aesthetics
+    <NumCitiesFreeAestheticsSchools>20</NumCitiesFreeAestheticsSchools> 
+
     Reduce cost to purchase units for Mercenary Army in Commerce
     <ID>31</ID> 
         <Type>POLICY_TRADE_UNIONS</Type> 
-        <UnitPurchaseCostModifier>-50</UnitPurchaseCostModifier> 
+        <UnitPurchaseCostModifier>-25</UnitPurchaseCostModifier> 
 
     Allow Rationalism to be adopted in the Medieval era:
     <ID>8</ID> 
