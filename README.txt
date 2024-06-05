@@ -6,6 +6,7 @@ v1.3
 - Added Ethnic Units mod
 - Spy from finishing Honor has been removed
 - Cultural Centers in Aesthetics now gives +50% production towards culture buildings instead of 100%.
+- Fine Arts in Aesthetics no longer provides a free Scriptorium, Gallery, and Conservatory.
 
 v1.2
 - Artistic Genius in Aesthetics no longer provides +3 science from great works.
