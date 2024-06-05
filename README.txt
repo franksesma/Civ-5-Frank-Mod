@@ -1,7 +1,7 @@
 CHANGE LOGS:
 v1.3
 - Rationalism can now be adopted in medieval era 
-- Mercenary Army in Commerce now allows you to purchase Units at a -50% reduced gold cost.
+- Mercenary Army in Commerce now allows you to purchase Units at a -25% reduced gold cost.
 - Added Enlightenment Era mod
 - Added Ethnic Units mod
 - Spy from finishing Honor has been removed
