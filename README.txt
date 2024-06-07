@@ -18,9 +18,23 @@ v1.2
 - Crossbow class as a whole has been nerfed 2 combat strength, regular crossbow are down from 13 combat strength to 11 combat strength (Longbowmen have been reduced by 2 from 12 to 10. Saethwyr have been reduced by 2 from 15 to 13). 
 - Canals have been brought back.
 
+=====================================================================================================
+To create another mod pack compatible with this:
+1. Start up Civ 5, go to Mods, select the mods you want to compile into a modpack along with the "Multiplayer Mod Work Around" enabled. 
+2. Once in game, start up Firetuner and run the command CreateMP()
+3. In the MP_MODSPACK folder, navigate to Override and copy all of the XML files over into the Frank Mod "Override" folder.
+4. In the MP_MODSPACK folder, navigate to UI and open InGame.lua. Copy the "ContextPtr:LoadNewContext()" methods at the end of the script that are missing from the InGame.lua from the Frank Mod "UI" folder.
+5. In the MP_MODSPACK folder, navigate to Mods and copy all of the mod folders over into the Frank Mod "Mods" folder.
+6. Ready to distribute.
+
+=====================================================================================================
+
 FILES THAT CONTAIN THE CHANGES DESCRIBED IN THE CHANGE LOGS:
-    - To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
-    - Added the SocialPolicyPopup.lua file to the UI folder
+
+CHANGES TO FOLDER:
+
+- To Enable Custom Civs: Set Playable and AIPlayable for Civilizations to default="true"
+- Added the SocialPolicyPopup.lua file to the UI folder
 
 CHANGES TO CIV5Units_Mongol.xml:
     Update Fine Arts label:
