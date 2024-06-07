@@ -20,6 +20,7 @@ v1.2
 
 =====================================================================================================
 To create another mod pack compatible with this:
+0. Optional: If edited a custom mod (ex: Enlightenment Era), place it into the Civ 5 Mods folder located in "My Games" to have it appear in the Civ 5 in-game mods menu.
 1. Start up Civ 5, go to Mods, select the mods you want to compile into a modpack along with the "Multiplayer Mod Work Around" enabled. 
 2. Once in game, start up Firetuner and run the command CreateMP()
 3. In the MP_MODSPACK folder, navigate to Override and copy all of the XML files over into the Frank Mod "Override" folder.
