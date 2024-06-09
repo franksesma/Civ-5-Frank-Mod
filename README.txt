@@ -7,6 +7,7 @@ v1.3.2
 - Fine Arts in Aesthetics no longer provides a free Scriptorium, Gallery, and Conservatory.
 - Increased production cost of Zulu Impi from 90 to 120.
 - Reduced Timurid Marathi Rider range from 5 to 4.
+- Removed Enlightenment Era mod.
 
 v1.2
 - Artistic Genius in Aesthetics no longer provides +3 science from great works.
