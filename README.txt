@@ -1,12 +1,12 @@
 CHANGE LOGS:
-v1.3
+v1.3.2
 - Rationalism can now be adopted in medieval era 
 - Mercenary Army in Commerce now allows you to purchase Units at a -25% reduced gold cost.
-- Added Enlightenment Era mod
-- Added Ethnic Units mod
 - Spy from finishing Honor has been removed
 - Cultural Centers in Aesthetics now gives +50% production towards culture buildings instead of 100%.
 - Fine Arts in Aesthetics no longer provides a free Scriptorium, Gallery, and Conservatory.
+- Increased production cost of Zulu Impi from 90 to 120.
+- Reduced Timurid Marathi Rider range from 5 to 4.
 
 v1.2
 - Artistic Genius in Aesthetics no longer provides +3 science from great works.
@@ -38,6 +38,10 @@ CHANGES TO FOLDER:
 - Added the SocialPolicyPopup.lua file to the UI folder
 
 CHANGES TO CIV5Units_Mongol.xml:
+    Change Zulu Impi from 90 production cost to 120 cost.
+
+    Reduce Timurid's Marathi Rider from 5 range to 4 range.
+
     Update Fine Arts label:
     <Replace Tag="TXT_KEY_POLICY_FINE_ARTS_HELP"> 
     <Text>
